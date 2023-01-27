@@ -5,7 +5,7 @@ import vue from "@vitejs/plugin-vue"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/deploy-parking-app/",
+  base: "/parking-app/",
   plugins: [vue()],
   resolve: {
     alias: {
